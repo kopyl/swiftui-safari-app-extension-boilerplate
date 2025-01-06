@@ -75,8 +75,8 @@
 		48B48FBC2D2A59620054B680 = {
 			isa = PBXGroup;
 			children = (
-				48B48FC72D2A59620054B680 /* tab_finder */,
-				48B48FE52D2A59630054B680 /* tab_finder Extension */,
+				48B48FC72D2A59620054B680 /* youtube-extension */,
+				48B48FE52D2A59630054B680 /* youtube-extension Extension */,
 				48B48FC62D2A59620054B680 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,17 +90,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		48B48FC72D2A59620054B680 /* tab_finder */ = {
+		48B48FC72D2A59620054B680 /* youtube-extension */ = {
 			isa = PBXGroup;
 			children = (
 				4813F8322D2A8D5C0085D120 /* app.swift */,
 				48B48FD92D2A59630054B680 /* Assets.xcassets */,
 				48B48FDC2D2A59630054B680 /* tab_finder.entitlements */,
 			);
-			path = tab_finder;
+			path = "youtube-extension";
 			sourceTree = "<group>";
 		};
-		48B48FE52D2A59630054B680 /* tab_finder Extension */ = {
+		48B48FE52D2A59630054B680 /* youtube-extension Extension */ = {
 			isa = PBXGroup;
 			children = (
 				48B48FE62D2A59630054B680 /* SafariExtensionHandler.swift */,
@@ -109,7 +109,7 @@
 				48B48FF32D2A59630054B680 /* tab_finder_Extension.entitlements */,
 				48B48FEA2D2A59630054B680 /* Resources */,
 			);
-			path = "tab_finder Extension";
+			path = "youtube-extension Extension";
 			sourceTree = "<group>";
 		};
 		48B48FEA2D2A59630054B680 /* Resources */ = {
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 48B48FC02D2A59620054B680 /* Build configuration list for PBXProject "tab_finder" */;
+			buildConfigurationList = 48B48FC02D2A59620054B680 /* Build configuration list for PBXProject "youtube-extension" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -503,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48B48FC02D2A59620054B680 /* Build configuration list for PBXProject "tab_finder" */ = {
+		48B48FC02D2A59620054B680 /* Build configuration list for PBXProject "youtube-extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48B48FF42D2A59630054B680 /* Debug */,
