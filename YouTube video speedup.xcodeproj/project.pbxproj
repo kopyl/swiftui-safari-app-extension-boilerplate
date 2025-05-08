@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4813F8332D2A8D5C0085D120 /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4813F8322D2A8D5C0085D120 /* app.swift */; };
 		48B48FDA2D2A59630054B680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B48FD92D2A59630054B680 /* Assets.xcassets */; };
-		48B48FE22D2A59630054B680 /* youtube-extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48B48FE12D2A59630054B680 /* youtube-extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48B48FE22D2A59630054B680 /* YouTube video speedup Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48B48FE12D2A59630054B680 /* YouTube video speedup Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		48B48FE72D2A59630054B680 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B48FE62D2A59630054B680 /* SafariExtensionHandler.swift */; };
 		48B48FE92D2A59630054B680 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B48FE82D2A59630054B680 /* SafariExtensionViewController.swift */; };
 		48B48FEC2D2A59630054B680 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 48B48FEB2D2A59630054B680 /* script.js */; };
@@ -33,7 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				48B48FE22D2A59630054B680 /* youtube-extension Extension.appex in Embed Foundation Extensions */,
+				48B48FE22D2A59630054B680 /* YouTube video speedup Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,10 +42,10 @@
 
 /* Begin PBXFileReference section */
 		4813F8322D2A8D5C0085D120 /* app.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = app.swift; sourceTree = "<group>"; };
-		48B48FC52D2A59620054B680 /* youtube-extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B48FC52D2A59620054B680 /* YouTube video speedup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTube video speedup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B48FD92D2A59630054B680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48B48FDC2D2A59630054B680 /* youtube-extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "youtube-extension.entitlements"; sourceTree = "<group>"; };
-		48B48FE12D2A59630054B680 /* youtube-extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "youtube-extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B48FE12D2A59630054B680 /* YouTube video speedup Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YouTube video speedup Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B48FE62D2A59630054B680 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		48B48FE82D2A59630054B680 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
 		48B48FEB2D2A59630054B680 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 		48B48FC62D2A59620054B680 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48B48FC52D2A59620054B680 /* youtube-extension.app */,
-				48B48FE12D2A59630054B680 /* youtube-extension Extension.appex */,
+				48B48FC52D2A59620054B680 /* YouTube video speedup.app */,
+				48B48FE12D2A59630054B680 /* YouTube video speedup Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48B48FC42D2A59620054B680 /* youtube-extension */ = {
+		48B48FC42D2A59620054B680 /* YouTube video speedup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48B48FFA2D2A59630054B680 /* Build configuration list for PBXNativeTarget "youtube-extension" */;
+			buildConfigurationList = 48B48FFA2D2A59630054B680 /* Build configuration list for PBXNativeTarget "YouTube video speedup" */;
 			buildPhases = (
 				48B48FC12D2A59620054B680 /* Sources */,
 				48B48FC22D2A59620054B680 /* Frameworks */,
@@ -138,14 +138,14 @@
 			dependencies = (
 				48B48FE42D2A59630054B680 /* PBXTargetDependency */,
 			);
-			name = "youtube-extension";
+			name = "YouTube video speedup";
 			productName = tab_finder;
-			productReference = 48B48FC52D2A59620054B680 /* youtube-extension.app */;
+			productReference = 48B48FC52D2A59620054B680 /* YouTube video speedup.app */;
 			productType = "com.apple.product-type.application";
 		};
-		48B48FE02D2A59630054B680 /* youtube-extension Extension */ = {
+		48B48FE02D2A59630054B680 /* YouTube video speedup Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48B48FF62D2A59630054B680 /* Build configuration list for PBXNativeTarget "youtube-extension Extension" */;
+			buildConfigurationList = 48B48FF62D2A59630054B680 /* Build configuration list for PBXNativeTarget "YouTube video speedup Extension" */;
 			buildPhases = (
 				48B48FDD2D2A59630054B680 /* Sources */,
 				48B48FDE2D2A59630054B680 /* Frameworks */,
@@ -155,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = "youtube-extension Extension";
+			name = "YouTube video speedup Extension";
 			productName = "tab_finder Extension";
-			productReference = 48B48FE12D2A59630054B680 /* youtube-extension Extension.appex */;
+			productReference = 48B48FE12D2A59630054B680 /* YouTube video speedup Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 48B48FC02D2A59620054B680 /* Build configuration list for PBXProject "youtube-extension" */;
+			buildConfigurationList = 48B48FC02D2A59620054B680 /* Build configuration list for PBXProject "YouTube video speedup" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48B48FC42D2A59620054B680 /* youtube-extension */,
-				48B48FE02D2A59630054B680 /* youtube-extension Extension */,
+				48B48FC42D2A59620054B680 /* YouTube video speedup */,
+				48B48FE02D2A59630054B680 /* YouTube video speedup Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -241,7 +241,7 @@
 /* Begin PBXTargetDependency section */
 		48B48FE42D2A59630054B680 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 48B48FE02D2A59630054B680 /* youtube-extension Extension */;
+			target = 48B48FE02D2A59630054B680 /* YouTube video speedup Extension */;
 			targetProxy = 48B48FE32D2A59630054B680 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -503,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48B48FC02D2A59620054B680 /* Build configuration list for PBXProject "youtube-extension" */ = {
+		48B48FC02D2A59620054B680 /* Build configuration list for PBXProject "YouTube video speedup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48B48FF42D2A59630054B680 /* Debug */,
@@ -512,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48B48FF62D2A59630054B680 /* Build configuration list for PBXNativeTarget "youtube-extension Extension" */ = {
+		48B48FF62D2A59630054B680 /* Build configuration list for PBXNativeTarget "YouTube video speedup Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48B48FF72D2A59630054B680 /* Debug */,
@@ -521,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48B48FFA2D2A59630054B680 /* Build configuration list for PBXNativeTarget "youtube-extension" */ = {
+		48B48FFA2D2A59630054B680 /* Build configuration list for PBXNativeTarget "YouTube video speedup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48B48FFB2D2A59630054B680 /* Debug */,

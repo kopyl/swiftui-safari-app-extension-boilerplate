@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "48B48FC42D2A59620054B680"
-            BuildableName = "youtube-extension.app"
-            BlueprintName = "youtube-extension"
-            ReferencedContainer = "container:youtube-extension.xcodeproj">
+            BuildableName = "YouTube video speedup.app"
+            BlueprintName = "YouTube video speedup"
+            ReferencedContainer = "container:YouTube video speedup.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <MacroExpansion>
