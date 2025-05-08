@@ -142,6 +142,12 @@ const youtubeInject = () => {
 
 const checkAndInject = () => {
     console.log("Checking")
+    if (!window.location.href.includes('youtube.com')) {
+        console.log("Not a YouTube URL. Stopping script.");
+        clearInterval(interval);
+        return;
+    }
+
     const footer = document.querySelector(".ytp-chrome-controls");
     const video = document.querySelector("video");
 
