@@ -152,8 +152,8 @@ const checkAndInject = () => {
     const video = document.querySelector("video");
 
     if (footer && video) {
-        clearInterval(interval); // Stop checking once elements are found
-        youtubeInject(); // Inject script
+        clearInterval(interval);
+        youtubeInject();
     }
 };
 
