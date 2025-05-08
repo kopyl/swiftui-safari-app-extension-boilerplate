@@ -6,7 +6,7 @@ import SwiftUI
 struct HelloWorldView: View {
     var body: some View {
         VStack {
-            Text("Hello, World!")
+            Text("Feel free to close the app and use Safari extension as is. Happy watching ❤️")
             .padding()
         }
     }
