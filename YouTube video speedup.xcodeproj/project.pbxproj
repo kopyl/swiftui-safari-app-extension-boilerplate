@@ -54,6 +54,7 @@
 		48B48FF22D2A59630054B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48B48FF32D2A59630054B680 /* youtube-extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "youtube-extension.entitlements"; sourceTree = "<group>"; };
 		48BE1E582DCD6EE000AD6152 /* toolbar-icon.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "toolbar-icon.svg"; sourceTree = "<group>"; };
+		48BE1E5C2DCD7E2700AD6152 /* YouTube-video-speedup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "YouTube-video-speedup-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		48B48FC72D2A59620054B680 /* YouTube video speedup */ = {
 			isa = PBXGroup;
 			children = (
+				48BE1E5C2DCD7E2700AD6152 /* YouTube-video-speedup-Info.plist */,
 				4813F8322D2A8D5C0085D120 /* app.swift */,
 				48B48FD92D2A59630054B680 /* Assets.xcassets */,
 				48B48FDC2D2A59630054B680 /* youtube-extension.entitlements */,
@@ -445,8 +447,10 @@
 				DEVELOPMENT_TEAM = 9QNMAN8CT6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YouTube-video-speedup-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "YouTube video speedup";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,8 +487,10 @@
 				DEVELOPMENT_TEAM = 9QNMAN8CT6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YouTube-video-speedup-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "YouTube video speedup";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
